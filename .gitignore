@@ -1,0 +1,52 @@
+# ═══════════════════════════════════════
+# SmartBank V2 — Git Ignore
+# ═══════════════════════════════════════
+
+# ── Maven ──
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ── IDE ──
+.idea/
+*.iml
+*.iws
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+bin/
+
+# ── Java ──
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ── Spring Boot ──
+*.log
+logs/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Node / React ──
+smartbank-frontend/node_modules/
+smartbank-frontend/dist/
+smartbank-frontend/.env
+smartbank-frontend/.env.local
+
+# ── Docker ──
+.env
+
+# ── Misc ──
+tmp/
+output/
+tools/
+.agents/
